@@ -17,7 +17,7 @@ include_directories("./includes/")
 set(MY_EXECUTABLE_NAME "WinCppUtilsCollection")
 set(
   SOURCE_FILES
-  "src/font-utils/list_all_fonts.cpp"
+  "src/screen-utils/window_scale.cpp"
 )
 
 add_executable(${MY_EXECUTABLE_NAME} ${SOURCE_FILES})

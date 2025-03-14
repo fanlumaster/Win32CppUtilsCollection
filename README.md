@@ -10,3 +10,4 @@ My own collections for Windows C++.
 ## Screen Utils
 
 - [Get main monitor size and taskbar size](https://github.com/fanlumaster/Win32CppUtilsCollection/blob/master/src/screen-utils/monitor_and_taskbar_size.cpp)
+- [Get window scale](https://github.com/fanlumaster/Win32CppUtilsCollection/blob/master/src/screen-utils/window_scale.cpp)
