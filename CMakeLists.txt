@@ -17,7 +17,7 @@ include_directories("./includes/")
 set(MY_EXECUTABLE_NAME "WinCppUtilsCollection")
 set(
   SOURCE_FILES
-  "src/screen-utils/window_scale.cpp"
+  "src/screen-utils/current_monitor_info.cpp"
 )
 
 add_executable(${MY_EXECUTABLE_NAME} ${SOURCE_FILES})

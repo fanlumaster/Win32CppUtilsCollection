@@ -1,0 +1,22 @@
+{
+    "Debug snippets": {
+        "scope": "c,cpp",
+        "prefix": "dbug",
+        "body": [
+            "#ifdef FANY_DEBUG",
+            "#endif",
+        ],
+        "description": "Add debug macro"
+    },
+    "Main Function": {
+        "scope": "c,cpp",
+        "prefix": "main",
+        "body": [
+            "int main(int argc, char *argv[]) {",
+            "  $0",
+            "  return 0;",
+            "}"
+        ],
+        "description": "Insert a C++ main function"
+    }
+}
